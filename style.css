@@ -1,4 +1,6 @@
 #menu{
+	margin-top: -28px;
+	margin-left: -10px;
 	position: fixed;
 	width: 100%;
 }
@@ -47,6 +49,7 @@ h2{
 	width:350px;
 	margin:30px;
 }
+
 .fb-like {text-align: center;}
 .fb_iframe_widget {display: block !important;}
 .input{
