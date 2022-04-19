@@ -2,6 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css"/>
 </head>
 
 <body>
@@ -156,7 +157,13 @@
   <label for="mail" class="lbl">Your Email Address:</label><br>
   <input type="email" name="email" required class="input" placeholder="John.Doe@gmail.com"><br><br>
   <textarea id="textarea" style="height: 200px; width: 500px;" class="input" placeholder="What would you like to tell me?" rows="10"></textarea><br>
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
+  <script>
+    $('#textarea').emojioneArea({
+      
+    })
+  </script>
   <button type="submit">Send</button>
 </form>
 
